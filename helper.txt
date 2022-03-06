@@ -1,0 +1,12 @@
+Develop a Web page for a College management System using HTML for ABC Engineering College
+
+
+1. Home Page which displays the information about the college and other information
+2. Student Page Which gets all the student Information.
+3. A Page which displays courses offered by the College.
+4. Faculty Page which displays all the faculty details department wise.
+
+
+Note :
+* Use all the HTML Elements and Attributes
+* Use HTML Forms, Form Elements taught.
