@@ -19,70 +19,97 @@
         <span> | </span>
         <a href="./faculty.html">Faculty</a>
     </nav>
-    <section class="image img-decoration">
-        <h2 style="text-align: center;">Course Registration</h2>
-        <section>
-            <form action="./submit.html" method="post">
-                <fieldset>
-                    <legend>Personal Details</legend>
-                    <label for="fname" >First Name</label>
-                    <input type="text" required name="fname" id="fname">
-                    <label for="lname" > Last Name</label>
-                    <input type="text" required name="lname" id="lname">
-                    <label for="dob"> Date of Birth</label>
-                    <input type="date" required name="dob" id="dob">
-                    <label for="profile"> Profile Image</label>
-                    <input type="file" name="profile" id="profile">
-                    <label for=""> Gender</label>
-                    <input type="radio" id="gendermale" value="Male" name="gender">
-                    <label for="gendermale"> Male</label>
-                    <input type="radio" id="genderfemale" value="Female" name="gender">
-                    <label for="gendermale"> Female</label>
-                </fieldset>
-                <br>
-                <br>
-                <fieldset>
-                    <legend>Contact Details</legend>
-                    <label for="mobile">Mobile Number</label>
-                    <input type="tel" name="mobile" id="mobile" required>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                    <br>
-                    <p style="vertical-align:middle;">
-                        <label for="address">Address</label>
-                        <textarea name="address" id="address" cols="30" rows="5"></textarea>
-                    </p>
-                </fieldset>
-                <br>
-                <br>
-                <fieldset>
-                    <legend>Education Details</legend>
-                    <label for="course">Interested Course</label>
-                    <select name="course" id="course">
-                        <option value="cse">Computer Science And Engineering</option>
-                        <option value="ece">Electronics and Communication Engineering</option>
-                        <option value="eee">Electrical and Electronics Engineering</option>
-                        <option value="chem">Chemical Engineering</option>
-                        <option value="it">Information Technology</option>
-                        <option value="civil">Civil Engineering</option>
-                    </select>
-                    <br>
-                    <br>
-                    <label for="10mark">10th Mark</label>
-                    <input type="text" name="10mark" id="">
-                    <label for="12mark">12th Mark</label>
-                    <input type="text" name="12mark" id="">
-                    <label for="pcm">PCM Cutoff</label>
-                    <input type="text" name="pcm" id="">
-                </fieldset>
-                <br>
-                <br>
-                <div style="text-align: center;">
-                    <a href="./submit.html"><button>Submit Details</button></a>
+    <section class="image">
+        <div class="img-decoration">
+            <h2 class="heading" style="color: #fff;">Course Registration</h2>
+            <section >
+                <form action="./submit.html" method="post" style="display: flex;justify-content: center; flex-direction: row;">
+                    <div class="personal-details "  style="display: inline; margin: 20px;">
+                        <fieldset >
+                            <legend >Personal Details</legend>
+                        
+                            <input type="text" required name="fname" id="fname" placeholder="First Name">
+                           
+                            <input type="text" required name="lname" id="lname" placeholder="Last Name">
+                            <br>
+                            <br>
+                            <label for="dob">Date of Birth</label>
+                            <br>
+                            <br>
+                            <input type="date" required name="dob" id="dob" >
+                            <br>
+                            <br>
+                            <label for="profile"> Profile Image</label>
+                            <br>
+                            <br>
+                            <input type="file" name="profile" id="profile">
+                            <br>
+                            <br>
+                            <label for=""> Gender</label>
+                            <br>
+                            <br>
+                            <input type="radio" id="gendermale" value="Male" name="gender">
+                            <label for="gendermale"> Male</label>
+                            <input type="radio" id="genderfemale" value="Female" name="gender">
+                            <label for="gendermale"> Female</label>
+                        </fieldset>
+                    </div>
+
+                    <div class="personal-details" style="display: inline;margin: 20px;">
+                        <fieldset>
+                            <legend>Contact Details</legend>
+                            <input type="tel" name="mobile" id="mobile" required placeholder="Mobile Number">
+                    
+                            <input type="email" name="email" id="email" required placeholder="Email">
+                            <br>
+                            <br>
     
-                </div>
-                     </form>
-        </section>
+                            <p style="vertical-align:middle;">
+                                <label for="address">Address</label>
+                                <br>
+                                <br>
+                                <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                            </p>
+                        </fieldset>
+                    </div>
+                   
+
+                    <div class="personal-details" style="display: inline;margin: 20px;">
+                        <fieldset >
+                            <legend>Education Details</legend>
+                            <label for="course">Interested Course</label>
+                            <br>
+                            <br>
+                            <select name="course" id="course" style="padding: 10px;">
+                                <option value="cse">Computer Science And Engineering</option>
+                                <option value="ece">Electronics and Communication Engineering</option>
+                                <option value="eee">Electrical and Electronics Engineering</option>
+                                <option value="chem">Chemical Engineering</option>
+                                <option value="it">Information Technology</option>
+                                <option value="civil">Civil Engineering</option>
+                            </select>
+                            <br>
+                            <br>
+                            
+                            <input type="text" name="10mark" id="" placeholder="10th Mark">
+                           
+                            <input type="text" name="12mark" id="" placeholder="12th Mark">
+            
+                            <input type="text" name="pcm" id="" placeholder="PCM Cutoff">
+                        </fieldset>
+                    </div>
+                   
+                    <br>
+                    <br>
+                   
+                         </form>
+                         <div style="    display: flex;justify-content: center;" >
+                            <a href="./submit.html"><button class="submit-btn">Submit Details</button></a>
+            
+                        </div>
+            </section>
+        </div>
+        
     </section>
     
 </body>
