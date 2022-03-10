@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>ABC | ABC Engineering College, Tamil Nadu.</title>
 </head>
 
@@ -18,69 +19,72 @@
         <span> | </span>
         <a href="./faculty.html">Faculty</a>
     </nav>
-    <h2 style="text-align: center;">Course Registration</h2>
-    <section>
-        <form action="./submit.html" method="post">
-            <fieldset>
-                <legend>Personal Details</legend>
-                <label for="fname" >First Name</label>
-                <input type="text" required name="fname" id="fname">
-                <label for="lname" > Last Name</label>
-                <input type="text" required name="lname" id="lname">
-                <label for="dob"> Date of Birth</label>
-                <input type="date" required name="dob" id="dob">
-                <label for="profile"> Profile Image</label>
-                <input type="file" name="profile" id="profile">
-                <label for=""> Gender</label>
-                <input type="radio" id="gendermale" value="Male" name="gender">
-                <label for="gendermale"> Male</label>
-                <input type="radio" id="genderfemale" value="Female" name="gender">
-                <label for="gendermale"> Female</label>
-            </fieldset>
-            <br>
-            <br>
-            <fieldset>
-                <legend>Contact Details</legend>
-                <label for="mobile">Mobile Number</label>
-                <input type="tel" name="mobile" id="mobile" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-                <br>
-                <p style="vertical-align:middle;">
-                    <label for="address">Address</label>
-                    <textarea name="address" id="address" cols="30" rows="5"></textarea>
-                </p>
-            </fieldset>
-            <br>
-            <br>
-            <fieldset>
-                <legend>Education Details</legend>
-                <label for="course">Interested Course</label>
-                <select name="course" id="course">
-                    <option value="cse">Computer Science And Engineering</option>
-                    <option value="ece">Electronics and Communication Engineering</option>
-                    <option value="eee">Electrical and Electronics Engineering</option>
-                    <option value="chem">Chemical Engineering</option>
-                    <option value="it">Information Technology</option>
-                    <option value="civil">Civil Engineering</option>
-                </select>
+    <section class="image img-decoration">
+        <h2 style="text-align: center;">Course Registration</h2>
+        <section>
+            <form action="./submit.html" method="post">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="fname" >First Name</label>
+                    <input type="text" required name="fname" id="fname">
+                    <label for="lname" > Last Name</label>
+                    <input type="text" required name="lname" id="lname">
+                    <label for="dob"> Date of Birth</label>
+                    <input type="date" required name="dob" id="dob">
+                    <label for="profile"> Profile Image</label>
+                    <input type="file" name="profile" id="profile">
+                    <label for=""> Gender</label>
+                    <input type="radio" id="gendermale" value="Male" name="gender">
+                    <label for="gendermale"> Male</label>
+                    <input type="radio" id="genderfemale" value="Female" name="gender">
+                    <label for="gendermale"> Female</label>
+                </fieldset>
                 <br>
                 <br>
-                <label for="10mark">10th Mark</label>
-                <input type="text" name="10mark" id="">
-                <label for="12mark">12th Mark</label>
-                <input type="text" name="12mark" id="">
-                <label for="pcm">PCM Cutoff</label>
-                <input type="text" name="pcm" id="">
-            </fieldset>
-            <br>
-            <br>
-            <div style="text-align: center;">
-                <a href="./submit.html"><button>Submit Details</button></a>
-
-            </div>
-                 </form>
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" name="mobile" id="mobile" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <p style="vertical-align:middle;">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Education Details</legend>
+                    <label for="course">Interested Course</label>
+                    <select name="course" id="course">
+                        <option value="cse">Computer Science And Engineering</option>
+                        <option value="ece">Electronics and Communication Engineering</option>
+                        <option value="eee">Electrical and Electronics Engineering</option>
+                        <option value="chem">Chemical Engineering</option>
+                        <option value="it">Information Technology</option>
+                        <option value="civil">Civil Engineering</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="10mark">10th Mark</label>
+                    <input type="text" name="10mark" id="">
+                    <label for="12mark">12th Mark</label>
+                    <input type="text" name="12mark" id="">
+                    <label for="pcm">PCM Cutoff</label>
+                    <input type="text" name="pcm" id="">
+                </fieldset>
+                <br>
+                <br>
+                <div style="text-align: center;">
+                    <a href="./submit.html"><button>Submit Details</button></a>
+    
+                </div>
+                     </form>
+        </section>
     </section>
+    
 </body>
 
 </html>
