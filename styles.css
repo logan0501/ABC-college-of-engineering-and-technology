@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -119,10 +119,11 @@ label{
 .course-card{
     width: 300px;
     height: 320px;
-    background-color: rgba(255,255,255,0.3);
-    color:#fff;
+    background-color: rgba(255,255,255);
+    color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin:10px;
+
 
 }
 .card-course{
@@ -133,4 +134,14 @@ label{
     width: 300px;
     height: 200px;
     object-fit: cover;
+}
+
+.faculty-flex{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: s;
+    background-color: #A23443;
+    color: #ffffff;
 }
